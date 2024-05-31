@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\bin\Debug\net8.0\SignalR.EntityLayer.deps.json
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\bin\Debug\net8.0\SignalR.EntityLayer.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\bin\Debug\net8.0\SignalR.EntityLayer.pdb
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\SignalR.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\SignalR.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\SignalR.EntityLayer.AssemblyInfo.cs
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\SignalR.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\SignalR.EntityLayer.sourcelink.json
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\SignalR.EntityLayer.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\refint\SignalR.EntityLayer.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\SignalR.EntityLayer.pdb
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.EntityLayer\obj\Debug\net8.0\ref\SignalR.EntityLayer.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i1D+in8HeJt1vwREqEzxirTtJBPb9CCRuJCCkxgRPcY=",
+  "Source": "SignalRApi",
+  "BasePath": "_content/SignalRApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SignalR.EntityLayer/1.0.0": {
+        "runtime": {
+          "SignalR.EntityLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SignalR.EntityLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
