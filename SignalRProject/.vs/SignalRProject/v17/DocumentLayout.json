@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.businesslayer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|solutionrelative:signalr.businesslayer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dtolayer\\testimonialdto\\updatetestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|solutionrelative:signalr.dtolayer\\testimonialdto\\updatetestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE852D8E-FEE5-4503-AA66-75F832B4C6EE}|SignalR.EntityLayer\\SignalR.EntityLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.entitylayer\\entities\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE852D8E-FEE5-4503-AA66-75F832B4C6EE}|SignalR.EntityLayer\\SignalR.EntityLayer.csproj|solutionrelative:signalr.entitylayer\\entities\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dtolayer\\testimonialdto\\gettestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|solutionrelative:signalr.dtolayer\\testimonialdto\\gettestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dtolayer\\testimonialdto\\createtestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|solutionrelative:signalr.dtolayer\\testimonialdto\\createtestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dtolayer\\testimonialdto\\resulttestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18391C67-D9C0-4469-86DD-1C1A8102CCC4}|SignalR.DtoLayer\\SignalR.DtoLayer.csproj|solutionrelative:signalr.dtolayer\\testimonialdto\\resulttestimonialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Abstract\\IGenericService.cs",
+              "RelativeDocumentMoniker": "SignalR.BusinessLayer\\Abstract\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Abstract\\IGenericService.cs",
+              "RelativeToolTip": "SignalR.BusinessLayer\\Abstract\\IGenericService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T22:44:17.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateTestimonialDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\UpdateTestimonialDto.cs",
+              "RelativeDocumentMoniker": "SignalR.DtoLayer\\TestimonialDto\\UpdateTestimonialDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\UpdateTestimonialDto.cs",
+              "RelativeToolTip": "SignalR.DtoLayer\\TestimonialDto\\UpdateTestimonialDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T22:41:13.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetTestimonialDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\GetTestimonialDto.cs",
+              "RelativeDocumentMoniker": "SignalR.DtoLayer\\TestimonialDto\\GetTestimonialDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\GetTestimonialDto.cs",
+              "RelativeToolTip": "SignalR.DtoLayer\\TestimonialDto\\GetTestimonialDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T22:40:36.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateTestimonialDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\CreateTestimonialDto.cs",
+              "RelativeDocumentMoniker": "SignalR.DtoLayer\\TestimonialDto\\CreateTestimonialDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\CreateTestimonialDto.cs",
+              "RelativeToolTip": "SignalR.DtoLayer\\TestimonialDto\\CreateTestimonialDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T22:40:17.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResultTestimonialDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\ResultTestimonialDto.cs",
+              "RelativeDocumentMoniker": "SignalR.DtoLayer\\TestimonialDto\\ResultTestimonialDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\TestimonialDto\\ResultTestimonialDto.cs",
+              "RelativeToolTip": "SignalR.DtoLayer\\TestimonialDto\\ResultTestimonialDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T22:39:27.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Testimonial.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.EntityLayer\\Entities\\Testimonial.cs",
+              "RelativeDocumentMoniker": "SignalR.EntityLayer\\Entities\\Testimonial.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.EntityLayer\\Entities\\Testimonial.cs",
+              "RelativeToolTip": "SignalR.EntityLayer\\Entities\\Testimonial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T22:38:55.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

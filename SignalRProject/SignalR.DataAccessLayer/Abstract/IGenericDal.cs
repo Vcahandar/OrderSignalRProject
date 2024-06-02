@@ -12,7 +12,7 @@ namespace SignalR.DataAccessLayer.Abstract
         void Delete(T entity);
         void Update(T entity);
         T GetById(int id);
-        List<T> GetAll();
+        List<T> GetListAll();
 
     }
 }
