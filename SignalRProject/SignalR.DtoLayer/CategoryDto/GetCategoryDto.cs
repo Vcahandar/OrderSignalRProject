@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SignalR.DtoLayer.CategoryDto
 {
-    public class GetCategoryDate
+    public class GetCategoryDto
     {
         public int CategoryId { get; set; }
         public string Name { get; set; }

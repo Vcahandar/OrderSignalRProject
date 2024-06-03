@@ -140,3 +140,8 @@ C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\S
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.BusinessLayer.pdb
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.DataAccessLayer.pdb
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.EntityLayer.pdb
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\obj\Debug\net8.0\SignalRApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.DtoLayer.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.DtoLayer.pdb

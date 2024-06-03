@@ -156,6 +156,67 @@
         }
       }
     },
+    "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
+        "projectName": "SignalR.DtoLayer",
+        "projectPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -244,6 +305,9 @@
             "projectReferences": {
               "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj": {
                 "projectPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj"
+              },
+              "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj"
               }
             }
           }
@@ -263,6 +327,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
