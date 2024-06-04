@@ -5,6 +5,314 @@
       "PackagePath": "staticwebassets\\SignalRWebUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\LICENSE",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\README.md",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css.map",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.min.css",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.eot",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.svg",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.ttf",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff2",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu.png",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu2.png",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile2.jpg",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\jquery.3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\jquery.3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\demo.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\chartist.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\chartist.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\plugin\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\plugin\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\jquery.mapael.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\jquery.mapael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\README.txt",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-ui-1.12.1.custom\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-ui-1.12.1.custom\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.min.js",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_background.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_components.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_layouts.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_line-awesome.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_line-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_outlinefocus.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_outlinefocus.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_plugins.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_responsive.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_typography.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_variables.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_alerts.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_alerts.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_charts.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_inputs.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_maps.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_modals.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_modals.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navbars.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navbars.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navpills.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navpills.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navsearch.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navsearch.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_paginations.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_paginations.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_sliders.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_sliders.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_chartist.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_chartist.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryscrollbar.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryscrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryui.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryui.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_toggle.scss",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_toggle.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\components.html",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\components.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\forms.html",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\forms.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\icons.html",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\icons.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\index.html",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\notifications.html",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\notifications.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\tables.html",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\tables.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\typography.html",
+      "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\typography.html"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

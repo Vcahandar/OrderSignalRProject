@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\shared\\components\\_layoutscriptcomponetpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\shared\\components\\_layoutscriptcomponetpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\viewcomponents\\layoutcomponents\\_layoutscriptcomponetpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\viewcomponents\\layoutcomponents\\_layoutscriptcomponetpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\viewcomponents\\layoutcomponents\\_layoutfootercomponetpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\viewcomponents\\layoutcomponents\\_layoutfootercomponetpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\shared\\components\\_layoutfootercomponetpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\shared\\components\\_layoutfootercomponetpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestimonialController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\TestimonialController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\TestimonialController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\TestimonialController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\TestimonialController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAIwEsAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:32:42.714Z",
+              "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Shared\\Components\\_LayoutScriptComponetPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\Shared\\Components\\_LayoutScriptComponetPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Shared\\Components\\_LayoutScriptComponetPartial\\Default.cshtml",
+              "RelativeToolTip": "SignalRWebUI\\Views\\Shared\\Components\\_LayoutScriptComponetPartial\\Default.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T22:40:11.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SocialMediaController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\SocialMediaController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\SocialMediaController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\SocialMediaController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\SocialMediaController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "_LayoutScriptComponetPartial.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutScriptComponetPartial.cs",
+              "RelativeDocumentMoniker": "SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutScriptComponetPartial.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutScriptComponetPartial.cs",
+              "RelativeToolTip": "SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutScriptComponetPartial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:28:59.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAFAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:24:39.974Z",
+              "WhenOpened": "2024-06-04T22:34:11.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FeatureController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\FeatureController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\FeatureController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\FeatureController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\FeatureController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:19:53.534Z",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Shared\\Components\\_LayoutFooterComponetPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\Shared\\Components\\_LayoutFooterComponetPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Shared\\Components\\_LayoutFooterComponetPartial\\Default.cshtml",
+              "RelativeToolTip": "SignalRWebUI\\Views\\Shared\\Components\\_LayoutFooterComponetPartial\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T22:20:16.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DiscountController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\DiscountController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\DiscountController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\DiscountController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\DiscountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "_LayoutFooterComponetPartial.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutFooterComponetPartial.cs",
+              "RelativeDocumentMoniker": "SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutFooterComponetPartial.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutFooterComponetPartial.cs",
+              "RelativeToolTip": "SignalRWebUI\\ViewComponents\\LayoutComponents\\_LayoutFooterComponetPartial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:11:27.497Z",
+              "WhenOpened": "2024-06-04T22:18:44.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Program.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Program.cs",
-              "RelativeToolTip": "SignalRApi\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T19:16:48.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwEoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:01:45.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAE0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:01:30.715Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\AdminLayout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeToolTip": "SignalRWebUI\\Views\\AdminLayout\\Index.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T20:53:22.539Z",
               "EditorCaption": ""
             }
           ]
