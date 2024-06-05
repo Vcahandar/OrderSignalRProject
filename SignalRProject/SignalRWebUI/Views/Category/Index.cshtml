@@ -1,4 +1,6 @@
 ﻿
+@model List<ResultCategoryVM>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/AdminLayout/Index.cshtml";
@@ -6,46 +8,45 @@
 
 <div class="content">
 	<div class="container-fluid">
-		<h4 class="page-title">Tables</h4>
+		<h4 class="page-title">Category operations</h4>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
-						<div class="card-title">Basic Table</div>
+						<div class="card-title">Category list</div>
 					</div>
 					<div class="card-body">
 						<div class="card-sub">
-							This is the basic table view of the ready dashboard :
+							You can perform operations related to the category :
 						</div>
 						<table class="table mt-3">
 							<thead>
 								<tr>
 									<th scope="col">#</th>
-									<th scope="col">First</th>
-									<th scope="col">Last</th>
-									<th scope="col">Handle</th>
+									<th scope="col">Category Name</th>
+									<th scope="col">Status</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>1</td>
-									<td>Mark</td>
-									<td>Otto</td>
-									<td>@@mdo</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>Jacob</td>
-									<td>Thornton</td>
-									<td>@@fat</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td colspan="2">Larry the Bird</td>
-									<td>@@twitter</td>
-								</tr>
+
+								  @foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.CategoryId</td>
+										<td>@item.Name</td>
+										<td>@item.Status</td>
+										<td><a href="/Category/DeleteCategory/@item.CategoryId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/Category/UpdateCategory/@item.CategoryId" class="btn btn-outline-success">Update</a></td>
+									</tr>
+
+								}
+						
 							</tbody>
 						</table>
+
+						<a href="/Category/CreateCategory/" class="btn btn-outline-primary">Create Category</a>
 					</div>
 				</div>
 			</div>
