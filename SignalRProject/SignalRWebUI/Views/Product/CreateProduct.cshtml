@@ -1,0 +1,59 @@
+﻿@model CreateProductVM
+
+@{
+	ViewData["Title"] = "CreateProduct";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Create Product</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">New Product</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Enter the name of the Product</label>
+								<input type="text" asp-for="Name" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Enter Product Price</label>
+								<input type="text" asp-for="Price" class="form-control" id="Price">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Product Description</label>
+								<input type="text" asp-for="Description" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Enter Product Image</label>
+								<input type="text" asp-for="ImageUrl" class="form-control" id="ImageUrl">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Select Product Category</label>
+								@Html.DropDownListFor(x =>x.CategoryId,(List<SelectListItem>)ViewBag.Items,new
+								{@class = "form-control"})
+							</div>
+						</div>
+
+						<div class="card-action">
+							<button class="btn btn-success">Submit</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
