@@ -1,0 +1,59 @@
+﻿@model List<ResultContactVM>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Home Page Contact operations</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Contact list</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							You can perform operations related to the Contact field. Don't forget to create only 1 Contact us field.
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Location</th>
+									<th scope="col">Phone</th>
+									<th scope="col">Mail</th>
+									<th scope="col">Desc</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.ContactId</td>
+										<td>@item.Location</td>
+										<td>@item.Phone</td>
+										<td>@item.Mail</td>
+										<td>@item.FooterDesc</td>
+										<td><a href="/Contact/DeleteContact/@item.ContactId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/Contact/UpdateContact/@item.ContactId" class="btn btn-outline-success">Update</a></td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<a href="/Contact/CreateContact/" class="btn btn-outline-primary">Create Contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

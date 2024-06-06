@@ -1,0 +1,52 @@
+﻿@model CreateContactVM
+
+@{
+	ViewData["Title"] = "CreateContact";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Home page Contact information operations</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">New Contact</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Enter Location</label>
+								<input type="text" asp-for="Location" class="form-control" id="Title">
+							</div>
+
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Phone">Enter Phone number</label>
+								<input type="text" asp-for="Phone" class="form-control" id="Phone" />
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Mail">Enter Email Addres</label>
+								<input type="email" asp-for="Mail" class="form-control" id="Mail">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Mail">Enter Description</label>
+								<input type="text" asp-for="FooterDesc" class="form-control" id="Mail">
+							</div>
+						</div>
+						<div class="card-action">
+							<button class="btn btn-success">Submit</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

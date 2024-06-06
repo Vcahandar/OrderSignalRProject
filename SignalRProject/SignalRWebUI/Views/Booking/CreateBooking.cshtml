@@ -1,0 +1,57 @@
+﻿@model CreateBookingVM
+
+@{
+	ViewData["Title"] = "CreateBooking";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Reservation transactions</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">New reservation</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Name Surname</label>
+								<input type="text" asp-for="Name" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Phone">Phone</label>
+								<input type="text" asp-for="Phone" class="form-control" id="Phone">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Mail">Email Addres</label>
+								<input type="email" asp-for="Mail" class="form-control" id="Mail">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="PersonCount">Person Count</label>
+								<input type="number" asp-for="PersonCount" class="form-control" id="PersonCount">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Date">Reservation Date</label>
+								<input type="date" asp-for="Date" class="form-control" id="Date">
+							</div>
+						</div>
+						<div class="card-action">
+							<button class="btn btn-success">Submit</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
