@@ -321,6 +321,134 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\about.html",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\book.html",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\book.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\css\\style.css",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\css\\style.scss",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\client1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\client2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f1.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f2.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f3.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f4.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f5.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f5.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f6.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f6.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f7.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f7.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f8.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f8.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\f9.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\f9.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\o1.jpg",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\o1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\images\\o2.jpg",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\images\\o2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\index.html",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\js\\custom.js",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\feane-1.0.0\\menu.html",
+      "PackagePath": "staticwebassets\\feane-1.0.0\\menu.html"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
