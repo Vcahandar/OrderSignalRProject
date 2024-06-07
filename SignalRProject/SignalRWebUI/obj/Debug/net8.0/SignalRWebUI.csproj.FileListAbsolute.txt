@@ -224,3 +224,4 @@ C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.csproj.AssemblyReference.cache
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRW.9B480C9A.Up2Date
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\libman.json
