@@ -44,7 +44,7 @@ namespace SignalRApi.Controllers
             return Ok("Testimonial done");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
 
         public IActionResult DeleteTestimonial(int id)
         {
@@ -54,7 +54,7 @@ namespace SignalRApi.Controllers
             return Ok("Testimonial Delete");
         }
 
-        [HttpGet("GetTestimonial")]
+        [HttpGet("{id}")]
         public IActionResult GetTestimonial(int id)
         {
             var value = _testimonialService.TGetById(id);

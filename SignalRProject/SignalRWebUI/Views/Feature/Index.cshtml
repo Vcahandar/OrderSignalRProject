@@ -1,0 +1,63 @@
+﻿@model List<ResultFeatureVM>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Feature operations</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Feature list</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							You can perform operations related to the Feature :
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Title 1</th>
+									<th scope="col">Title 2</th>
+									<th scope="col">Title 3</th>
+									<th scope="col">Desc 1</th>
+									<th scope="col">Desc 2</th>
+									<th scope="col">Desc 3</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.FeatureId</td>
+										<td>@item.Title1</td>
+										<td>@item.Title2</td>
+										<td>@item.Title3</td>
+										<td>@item.Description1</td>
+										<td>@item.Description2</td>
+										<td>@item.Description3</td>
+										<td><a href="/Feature/DeleteFeature/@item.FeatureId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/Feature/UpdateFeature/@item.FeatureId" class="btn btn-outline-success">Update</a></td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<a href="/Feature/CreateFeature/" class="btn btn-outline-primary">Create Feature</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

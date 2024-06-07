@@ -1,104 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\contact\\createcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\contact\\createcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\shared\\components\\_layoutsidebarcomponetpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\shared\\components\\_layoutsidebarcomponetpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrwebui\\views\\contact\\updatecontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD9C88F-5C2E-4F2D-A6CF-C08D5981BFBB}|SignalRWebUI\\SignalRWebUI.csproj|solutionrelative:signalrwebui\\views\\contact\\updatecontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Shared\\Components\\_LayoutSidebarComponetPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\Shared\\Components\\_LayoutSidebarComponetPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Shared\\Components\\_LayoutSidebarComponetPartial\\Default.cshtml",
-              "RelativeToolTip": "SignalRWebUI\\Views\\Shared\\Components\\_LayoutSidebarComponetPartial\\Default.cshtml",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAAAGgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T16:59:59.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "SignalRWebUI\\Views\\About\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T16:51:55.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateContact.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Contact\\CreateContact.cshtml",
-              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\Contact\\CreateContact.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Contact\\CreateContact.cshtml",
-              "RelativeToolTip": "SignalRWebUI\\Views\\Contact\\CreateContact.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T16:51:44.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "SignalRWebUI\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T16:51:26.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateContact.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Contact\\UpdateContact.cshtml",
-              "RelativeDocumentMoniker": "SignalRWebUI\\Views\\Contact\\UpdateContact.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\Views\\Contact\\UpdateContact.cshtml",
-              "RelativeToolTip": "SignalRWebUI\\Views\\Contact\\UpdateContact.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T16:48:08.453Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

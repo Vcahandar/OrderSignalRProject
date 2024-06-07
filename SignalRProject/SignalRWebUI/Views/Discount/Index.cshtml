@@ -1,0 +1,57 @@
+﻿@model List<ResultDiscountVM>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Discounts Of The Day</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Discount List Of The Day</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							Discounted products of the day are listed below :
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Product</th>
+									<th scope="col">Discount rate</th>
+									<th scope="col">Status</th> 
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.DiscountId</td>
+										<td>@item.Title</td>
+										<td>@item.Amount</td>
+										<td><a href="/Discount/DeleteDiscount/@item.DiscountId" class="btn btn-outline-warning">Status</a></td>
+										<td><a href="/Discount/DeleteDiscount/@item.DiscountId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/Discount/UpdateDiscount/@item.DiscountId" class="btn btn-outline-success">Update</a></td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<a href="/Discount/CreateDiscount/" class="btn btn-outline-primary">New Discounted Product</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

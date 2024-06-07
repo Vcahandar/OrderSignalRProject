@@ -1,0 +1,46 @@
+﻿@model UpdateSocialMediaVM
+
+@{
+	ViewData["Title"] = "UpdateSocialMedia";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Create SocialMedia</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<input type="hidden" asp-for="SocialMediaId" />
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">New SocialMedia</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Title</label>
+								<input type="text" asp-for="Title" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Url">Icon</label>
+								<input type="text" asp-for="Icon" class="form-control" id="Url">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Link</label>
+								<input type="text" asp-for="Url" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="card-action">
+							<button class="btn btn-success">Update</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

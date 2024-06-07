@@ -1,0 +1,56 @@
+﻿@model List<ResultTestimonialVM>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+	int count = 0;
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Reference Comment Procedures</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Reference Comment List</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							You can take the following actions regarding customer situations.
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Name Surname</th>
+									<th scope="col">Status</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.TestimonialId</td>
+										<td>@item.Name</td>
+										<td>@item.Status</td>
+										<td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-outline-success">Update</a></td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<a href="/Testimonial/CreateTestimonial/" class="btn btn-outline-primary">Create Testimonial</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

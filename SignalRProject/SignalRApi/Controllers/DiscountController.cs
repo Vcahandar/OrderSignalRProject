@@ -38,13 +38,13 @@ namespace SignalRApi.Controllers
                 Description = createDiscountDto.Description,
                 ImageUrl = createDiscountDto.ImageUrl,
                 Title = createDiscountDto.Title,
-                
+
             });
 
             return Ok("Discount done");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
 
         public IActionResult DeleteDiscount(int id)
         {
@@ -54,7 +54,7 @@ namespace SignalRApi.Controllers
             return Ok("Discount Delete");
         }
 
-        [HttpGet("GetDiscount")]
+        [HttpGet("{id}")]
         public IActionResult GetDiscount(int id)
         {
             var value = _discountService.TGetById(id);
