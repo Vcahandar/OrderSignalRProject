@@ -1,0 +1,19 @@
+﻿--CategoryCount
+--ProductCount
+--ActiveCategoryCount
+--PassiveCategoryCount
+
+--Number of Products by Category Name1
+--Number of Products by Category Name2
+
+--Average Price
+--The most expensive price
+--lowest price
+--Average Hamburger Price
+
+--Total Number of Orders
+--Number of Active Orders
+--Final order amount
+--Amount in the safe
+--Today's Earnings
+--Number of Tables
