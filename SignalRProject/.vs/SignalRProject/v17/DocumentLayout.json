@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.businesslayer\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|solutionrelative:signalr.businesslayer\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\menutablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\menutablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.businesslayer\\concrete\\menutablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|solutionrelative:signalr.businesslayer\\concrete\\menutablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.businesslayer\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|solutionrelative:signalr.businesslayer\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.businesslayer\\abstract\\imenutableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA389452-5F59-49F6-B07B-51A340FDEB7B}|SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj|solutionrelative:signalr.businesslayer\\abstract\\imenutableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dataaccesslayer\\entityframework\\eforderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|solutionrelative:signalr.dataaccesslayer\\entityframework\\eforderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dataaccesslayer\\entityframework\\efmenutabledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|solutionrelative:signalr.dataaccesslayer\\entityframework\\efmenutabledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dataaccesslayer\\abstract\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|solutionrelative:signalr.dataaccesslayer\\abstract\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dataaccesslayer\\abstract\\imenutabledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|solutionrelative:signalr.dataaccesslayer\\abstract\\imenutabledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dataaccesslayer\\abstract\\igenericdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|solutionrelative:signalr.dataaccesslayer\\abstract\\igenericdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalr.dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F551CE5-16F8-4CDD-B1B6-223B008E7755}|SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj|solutionrelative:signalr.dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|c:\\users\\hp\\desktop\\usignalrproject\\signalrproject\\signalrapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692E5AE8-228B-475A-B8A5-FC0DD38220F6}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGenericDal.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IGenericDal.cs",
-              "RelativeDocumentMoniker": "SignalR.DataAccessLayer\\Abstract\\IGenericDal.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IGenericDal.cs",
-              "RelativeToolTip": "SignalR.DataAccessLayer\\Abstract\\IGenericDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:41:05.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IProductDal.cs",
-              "RelativeDocumentMoniker": "SignalR.DataAccessLayer\\Abstract\\IProductDal.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IProductDal.cs",
-              "RelativeToolTip": "SignalR.DataAccessLayer\\Abstract\\IProductDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:41:00.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "SignalRApi\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAcwCAAAAAqAAAA",
+              "Title": "MenuTableManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Concrete\\MenuTableManager.cs",
+              "RelativeDocumentMoniker": "SignalR.BusinessLayer\\Concrete\\MenuTableManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Concrete\\MenuTableManager.cs",
+              "RelativeToolTip": "SignalR.BusinessLayer\\Concrete\\MenuTableManager.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA9wCoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:28:04.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Concrete\\OrderManager.cs",
-              "RelativeDocumentMoniker": "SignalR.BusinessLayer\\Concrete\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Concrete\\OrderManager.cs",
-              "RelativeToolTip": "SignalR.BusinessLayer\\Concrete\\OrderManager.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAA0wCwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:25:22.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Abstract\\IOrderService.cs",
-              "RelativeDocumentMoniker": "SignalR.BusinessLayer\\Abstract\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Abstract\\IOrderService.cs",
-              "RelativeToolTip": "SignalR.BusinessLayer\\Abstract\\IOrderService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:25:05.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EfOrderDal.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\EntityFramework\\EfOrderDal.cs",
-              "RelativeDocumentMoniker": "SignalR.DataAccessLayer\\EntityFramework\\EfOrderDal.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\EntityFramework\\EfOrderDal.cs",
-              "RelativeToolTip": "SignalR.DataAccessLayer\\EntityFramework\\EfOrderDal.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:21:54.016Z",
+              "WhenOpened": "2024-06-10T11:58:32.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IOrderDal.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IOrderDal.cs",
-              "RelativeDocumentMoniker": "SignalR.DataAccessLayer\\Abstract\\IOrderDal.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IOrderDal.cs",
-              "RelativeToolTip": "SignalR.DataAccessLayer\\Abstract\\IOrderDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Title": "IMenuTableDal.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IMenuTableDal.cs",
+              "RelativeDocumentMoniker": "SignalR.DataAccessLayer\\Abstract\\IMenuTableDal.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\Abstract\\IMenuTableDal.cs",
+              "RelativeToolTip": "SignalR.DataAccessLayer\\Abstract\\IMenuTableDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:20:41.493Z",
+              "WhenOpened": "2024-06-10T11:56:35.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuTablesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\MenuTablesController.cs",
+              "RelativeDocumentMoniker": "SignalRApi\\Controllers\\MenuTablesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Controllers\\MenuTablesController.cs",
+              "RelativeToolTip": "SignalRApi\\Controllers\\MenuTablesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:50:46.631Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Program.cs",
+              "RelativeDocumentMoniker": "SignalRApi\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRApi\\Program.cs",
+              "RelativeToolTip": "SignalRApi\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:49:43.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMenuTableService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Abstract\\IMenuTableService.cs",
+              "RelativeDocumentMoniker": "SignalR.BusinessLayer\\Abstract\\IMenuTableService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.BusinessLayer\\Abstract\\IMenuTableService.cs",
+              "RelativeToolTip": "SignalR.BusinessLayer\\Abstract\\IMenuTableService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:41:09.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfMenuTableDal.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\EntityFramework\\EfMenuTableDal.cs",
+              "RelativeDocumentMoniker": "SignalR.DataAccessLayer\\EntityFramework\\EfMenuTableDal.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalR.DataAccessLayer\\EntityFramework\\EfMenuTableDal.cs",
+              "RelativeToolTip": "SignalR.DataAccessLayer\\EntityFramework\\EfMenuTableDal.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:37:19.079Z"
             }
           ]
         }
