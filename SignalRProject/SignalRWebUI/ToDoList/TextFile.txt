@@ -17,3 +17,6 @@
 --Amount in the safe
 --Today's Earnings
 --Number of Tables
+
+---------------------------
+Consuming Statistics
