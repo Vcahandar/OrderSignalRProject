@@ -1,16 +1,16 @@
 ﻿<!DOCTYPE html>
 <html>
 
-@await Component.InvokeAsync("_UILayoutHeadComponentPartial");
+@await Component.InvokeAsync("_UILayoutHeadComponentPartial")
 
-<body class="sub_page">
+<body>
 
-    @await Component.InvokeAsync("_UILayoutNavbarComponetPartial");
+    @await Component.InvokeAsync("_UILayoutNavbarComponetPartial")
 
     @RenderBody()
-    @await Component.InvokeAsync("_UILayoutFooterComponetPartial");
+    @await Component.InvokeAsync("_UILayoutFooterComponetPartial")
 
-    @await Component.InvokeAsync("_UILayoutScriptComponetPartial");
+    @await Component.InvokeAsync("_UILayoutScriptComponetPartial")
 
  
 </body>

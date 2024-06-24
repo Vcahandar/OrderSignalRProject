@@ -1,0 +1,37 @@
+﻿@model List<ResultSliderVM>
+
+<section class="slider_section">
+    <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                var item = Model[i];
+                <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-lg-6">
+                                <div class="detail-box">
+                                    <h1>@item.Title</h1>
+                                    <p>@item.Description</p>
+                                    <div class="btn-box">
+                                        <a href="" class="btn1">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="container">
+            <ol class="carousel-indicators">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <li data-target="#customCarousel1" data-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+                }
+            </ol>
+        </div>
+    </div>
+</section>
+
+</div>
