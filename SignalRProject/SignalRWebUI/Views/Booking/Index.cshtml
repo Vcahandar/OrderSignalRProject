@@ -1,62 +1,95 @@
 ﻿@model List<ResultBookingVM>
 
 @{
-	ViewData["Title"] = "Index";
-	Layout = "~/Views/AdminLayout/Index.cshtml";
-
-	int count = 0;
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
 }
 
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+
 <div class="content">
-	<div class="container-fluid">
-		<h4 class="page-title">Reservation Transactions</h4>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="card">
-					<div class="card-header">
-						<div class="card-title">Reservation list</div>
-					</div>
-					<div class="card-body">
-						<div class="card-sub">
-							You can perform Reservation-related operations:
-						</div>
-						<table class="table mt-3">
-							<thead>
-								<tr>
-									<th scope="col">#</th>
-									<th scope="col">Name Surname</th>
-									<th scope="col">Phone</th>
-									<th scope="col">Person Count</th>
-									<th scope="col">Reservation status</th>
-									<th scope="col">Delete</th>
-									<th scope="col">Update</th>
-								</tr>
-							</thead>
-							<tbody>
+    <div class="container-fluid">
+        <script type="text/javascript">
+            $(document).ready(() => {
+                var connection = new signalR.HubConnectionBuilder()
+                    .withUrl("https://localhost:7172/SignalRHub")
+                    .build();
 
-								@foreach (var item in Model)
-								{
-									count++;
-									<tr>
-										<td>@count</td>
-										<td>@item.Name</td>
-										<td>@item.Phone</td>
-										<td>@item.PersonCount</td>
-										<td>Reservation received</td>
-										<td><a href="/Booking/DeleteBooking/@item.BookingId" class="btn btn-outline-danger">Delete</a></td>
-										<td><a href="/Booking/UpdateBooking/@item.BookingId" class="btn btn-outline-success">Update</a></td>
-									</tr>
+                $("#connstatus").text(connection.state);
 
-								}
+                connection.start()
+                    .then(() => {
+                        $("#connstatus").text(connection.state);
+                        setInterval(() => {
+                            connection.invoke("GetBookingList");
+                        }, 6000);
+                    })
+                    .catch((err) => {
+                        console.log(err);
+                    });
 
-							</tbody>
-						</table>
+                connection.on("ReceiveBookingList", (value) => {
+                    console.log(value);
+                    let tablehtml = `
+                                    <table class="table mt-3">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Name Surname</th>
+                                                <th scope="col">Phone</th>
+                                                <th scope="col">Person Count</th>
+                                                <th scope="col">Reservation status</th>
+                                                <th scope="col">Delete</th>
+                                                <th scope="col">Update</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>`;
 
-						<a href="/Booking/CreateBooking/" class="btn btn-outline-primary">Create Booking</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    $.each(value, (index, item) => {
+                        tablehtml += `
+                                        <tr>
+                                            <td>${item.bookingId}</td>
+                                            <td>${item.name}</td>
+                                            <td>${item.phone}</td>
+                                            <td>${item.personCount}</td>
+                                            <td>Reservation received</td>
+                                                        <td><a href="/Booking/DeleteBooking/${item.bookingId}" class="btn btn-outline-danger">Delete</a></td>
+                                                        <td><a href="/Booking/UpdateBooking/${item.bookingId}" class="btn btn-outline-success">Update</a></td>
+                                        </tr>`;
+                    });
+
+                    tablehtml += `
+                                        </tbody>
+                                    </table>`;
+
+                    $("#bookingList").html(tablehtml);
+                });
+            });
+        </script>
+
+        <h4 class="page-title">Reservation Transactions</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Reservation list</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-sub">
+                            You can perform Reservation-related operations:
+                        </div>
+                        <div id="bookingList"></div>
+                        <a href="/Booking/CreateBooking/" class="btn btn-outline-primary">Create Booking</a>
+                        <div class="col-md-8">
+                            <ul class="list-group" id="bookingList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
