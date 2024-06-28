@@ -1,0 +1,61 @@
+﻿@model List<ResultNotificationVM>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Notification operations</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Notification list</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							You can perform operations related to the Notification :
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Explanation</th>
+									<th scope="col">Date</th>
+									<th scope="col">Status</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+									<th scope="col">Read</th>
+									<th scope="col">Unread</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.NotificationId</td>
+										<td>@item.Description</td>
+										<td>@item.Date</td>
+										<td>@item.Status</td>
+										<td><a href="/Notifications/DeleteNotification/@item.NotificationId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/Notifications/UpdateNotification/@item.NotificationId" class="btn btn-outline-success">Update</a></td>
+										<td><a href="/Notifications/NotificationStatusChangeTrue/@item.NotificationId" class="btn btn-outline-warning">Read</a></td>
+										<td><a href="/Notifications/NotificationStatusChangeFalse/@item.NotificationId" class="btn btn-outline-secondary">Unread</a></td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<a href="/Notifications/CreateNotification/" class="btn btn-outline-primary">Create Notification</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

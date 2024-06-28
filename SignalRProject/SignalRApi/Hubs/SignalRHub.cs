@@ -13,13 +13,15 @@ namespace SignalRApi.Hubs
 		readonly IMoneyCaseService _moneyCaseService;
 		readonly IMenuTableService _menuTableService;
 		readonly IBookingService _bookingService;
+		readonly INotificationService _notificationService;
 
         public SignalRHub(ICategoryService categoryService, 
 							IProductService productService,
 							IOrderService orderService,
 							IMoneyCaseService moneyCaseService,
 							IMenuTableService menuTableService,
-                            IBookingService bookingService)
+                            IBookingService bookingService,
+                            INotificationService notificationService)
         {
             _categoryService = categoryService;
 			_productService = productService;
@@ -27,6 +29,7 @@ namespace SignalRApi.Hubs
 			_moneyCaseService = moneyCaseService;
 			_menuTableService = menuTableService;
 			_bookingService = bookingService;
+			_notificationService = notificationService;
         }
 
         public async Task SendStatistic()
@@ -96,6 +99,18 @@ namespace SignalRApi.Hubs
 			await Clients.All.SendAsync("ReceiveBookingList", values);
 		}
 
+		public async Task SendNotificationService()
+		{
+            var values = _notificationService.TNotificationCountByStatusFalse();
+            await Clients.All.SendAsync("ReceiveNotificationCountByFalse", values);
 
-	}
+            var notifiactionListByFalse = _notificationService.TGetAllNotificationByFalse();
+			await Clients.All.SendAsync("ReceiveNotificationByFalse", notifiactionListByFalse);
+
+
+        }
+
+
+
+    }
 }

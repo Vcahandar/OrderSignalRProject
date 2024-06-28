@@ -69,6 +69,11 @@ builder.Services.AddScoped<ISliderDal, EfSliderDal>();
 
 builder.Services.AddScoped<IBasketService, BasketManeger>();
 builder.Services.AddScoped<IBasketDal, EFBasketDal>();
+
+builder.Services.AddScoped<INotificationService, NotificationManager>();
+builder.Services.AddScoped<INotificationDal, EFNotificationDal>();
+
+
 // Add services to the container.
 
 builder.Services.AddControllersWithViews()
