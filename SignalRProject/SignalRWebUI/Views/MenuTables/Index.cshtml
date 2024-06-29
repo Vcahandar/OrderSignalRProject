@@ -1,0 +1,56 @@
+﻿@model List<ResultMenuTableVM>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+
+	int count = 0;
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">MenuTable operations</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">MenuTable list</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							You can perform operations related to the MenuTable :
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">MenuTable Name</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									count++;
+									<tr>
+										<td>@count</td>
+										<td>@item.TableName</td>
+										<td><a href="/MenuTables/DeleteMenuTable/@item.MenuTableId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/MenuTables/UpdateMenuTable/@item.MenuTableId" class="btn btn-outline-success">Update</a></td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<a href="/MenuTables/CreateMenuTable/" class="btn btn-outline-primary">Create MenuTable</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

@@ -20,22 +20,22 @@ namespace SignalR.BusinessLayer.Concrete
 
 		public void TAdd(MenuTable entity)
 		{
-			throw new NotImplementedException();
+			_menuTableDal.Add(entity);
 		}
 
 		public void TDelete(MenuTable entity)
 		{
-			throw new NotImplementedException();
+			_menuTableDal.Delete(entity);
 		}
 
 		public MenuTable TGetById(int id)
 		{
-			throw new NotImplementedException();
+			return _menuTableDal.GetById(id);
 		}
 
 		public List<MenuTable> TGetListAll()
 		{
-			throw new NotImplementedException();
+			return _menuTableDal.GetListAll();
 		}
 
 		public int TMenuTabelCount()
@@ -45,7 +45,7 @@ namespace SignalR.BusinessLayer.Concrete
 
 		public void TUpdate(MenuTable entity)
 		{
-			throw new NotImplementedException();
+			_menuTableDal.Update(entity);
 		}
 	}
 }
