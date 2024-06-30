@@ -145,3 +145,9 @@ C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\A
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\obj\Debug\net8.0\SignalRApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.DtoLayer.dll
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.DtoLayer.pdb
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

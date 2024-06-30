@@ -313,6 +313,94 @@
       "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master\\typography.html"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\css\\nunito-font.css",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\css\\nunito-font.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\css\\style.css",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Black.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Bold.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Italic.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Light.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Regular.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\Nunito-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\Nunito-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\fonts\\Nunito\\OFL.txt",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\fonts\\Nunito\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\images\\burger-dinner-food-hamburger-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\images\\burger-dinner-food-hamburger-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\images\\form-v6.jpg",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\images\\form-v6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\images\\hamburger.jpg",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\images\\hamburger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\index.html",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\colorlib-regform-32\\readme.txt",
+      "PackagePath": "staticwebassets\\colorlib-regform-32\\readme.txt"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
