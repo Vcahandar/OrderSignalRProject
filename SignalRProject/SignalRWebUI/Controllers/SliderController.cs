@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SignalRWebUI.ViewModels.DiscountVM;
-using SignalRWebUI.ViewModels.FeatureVM;
+using SignalRWebUI.ViewModels.SliderVM;
 using System.Text;
 
 namespace SignalRWebUI.Controllers
 {
-	public class FeatureController : Controller
+	public class SliderController : Controller
 	{
 		readonly IHttpClientFactory _httpClientFactory;
 
-		public FeatureController(IHttpClientFactory httpClientFactory)
+		public SliderController(IHttpClientFactory httpClientFactory)
 		{
 			_httpClientFactory = httpClientFactory;
 		}
@@ -18,12 +18,12 @@ namespace SignalRWebUI.Controllers
 		public async Task<IActionResult> Index()
 		{
 			var client = _httpClientFactory.CreateClient();
-			var responseMassage = await client.GetAsync("https://localhost:7172/api/Feature");
+			var responseMassage = await client.GetAsync("https://localhost:7172/api/Sliders");
 
 			if (responseMassage.IsSuccessStatusCode)
 			{
 				var jsonData = await responseMassage.Content.ReadAsStringAsync();
-				var values = JsonConvert.DeserializeObject<List<ResultFeatureVM>>(jsonData);
+				var values = JsonConvert.DeserializeObject<List<ResultSliderVM>>(jsonData);
 
 				return View(values);
 			}
@@ -33,19 +33,19 @@ namespace SignalRWebUI.Controllers
 
 
 		[HttpGet]
-		public IActionResult CreateFeature()
+		public IActionResult CreateSlider()
 		{
 			return View();
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> CreateFeature(CreateFeatureVM createFeatureVM)
+		public async Task<IActionResult> CreateSlider(CreateSliderVM createSliderVM)
 		{
 			var client = _httpClientFactory.CreateClient();
-			var jsonData = JsonConvert.SerializeObject(createFeatureVM);
+			var jsonData = JsonConvert.SerializeObject(createSliderVM);
 			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
 
-			var responseMessage = await client.PostAsync("https://localhost:7172/api/Feature", stringContent);
+			var responseMessage = await client.PostAsync("https://localhost:7172/api/Sliders", stringContent);
 
 			if (responseMessage.IsSuccessStatusCode)
 			{
@@ -57,10 +57,10 @@ namespace SignalRWebUI.Controllers
 		}
 
 
-		public async Task<IActionResult> DeleteFeature(int id)
+		public async Task<IActionResult> DeleteSlider(int id)
 		{
 			var client = _httpClientFactory.CreateClient();
-			var responseMessage = await client.DeleteAsync($"https://localhost:7172/api/Feature/{id}");
+			var responseMessage = await client.DeleteAsync($"https://localhost:7172/api/Sliders/{id}");
 
 			if (responseMessage.IsSuccessStatusCode)
 			{
@@ -73,15 +73,15 @@ namespace SignalRWebUI.Controllers
 
 
 		[HttpGet]
-		public async Task<IActionResult> UpdateFeature(int id)
+		public async Task<IActionResult> UpdateSlider(int id)
 		{
 			var client = _httpClientFactory.CreateClient();
-			var responseMessage = await client.GetAsync($"https://localhost:7172/api/Feature/{id}");
+			var responseMessage = await client.GetAsync($"https://localhost:7172/api/Sliders/{id}");
 
 			if (responseMessage.IsSuccessStatusCode)
 			{
 				var jsonData = await responseMessage.Content.ReadAsStringAsync();
-				var values = JsonConvert.DeserializeObject<UpdateFeatureVM>(jsonData);
+				var values = JsonConvert.DeserializeObject<UpdateSliderVM>(jsonData);
 
 				return View(values);
 			}
@@ -91,12 +91,12 @@ namespace SignalRWebUI.Controllers
 
 
 		[HttpPost]
-		public async Task<IActionResult> UpdateFeature(UpdateFeatureVM updateFeatureVM)
+		public async Task<IActionResult> UpdateSlider(UpdateSliderVM updateSliderVM)
 		{
 			var client = _httpClientFactory.CreateClient();
-			var jsonData = JsonConvert.SerializeObject(updateFeatureVM);
+			var jsonData = JsonConvert.SerializeObject(updateSliderVM);
 			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-			var responseMessage = await client.PutAsync("https://localhost:7172/api/Feature/", stringContent);
+			var responseMessage = await client.PutAsync("https://localhost:7172/api/Sliders/", stringContent);
 
 			if (responseMessage.IsSuccessStatusCode)
 			{

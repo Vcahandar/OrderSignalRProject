@@ -40,7 +40,8 @@ namespace SignalRWebUI.Controllers
 		[HttpPost]
 		public async Task<IActionResult> CreateBooking(CreateBookingVM createBookingVM)
 		{
-			var client = _httpClientFactory.CreateClient();
+			createBookingVM.Description = "Reservation Received";
+            var client = _httpClientFactory.CreateClient();
 			var jsonData = JsonConvert.SerializeObject(createBookingVM);
 			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
 
@@ -106,5 +107,24 @@ namespace SignalRWebUI.Controllers
 
 		}
 
-	}
+
+		public async Task<IActionResult> BookingStatusApproved(int id)
+		{
+            var client = _httpClientFactory.CreateClient();
+            await client.GetAsync($"https://localhost:7172/api/Booking/BookingStatusApproved/{id}");
+
+			return RedirectToAction("Index");
+        }
+
+
+        public async Task<IActionResult> BookingStatusCancelled(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            await client.GetAsync($"https://localhost:7172/api/Booking/BookingStatusCancelled/{id}");
+
+            return RedirectToAction("Index");
+        }
+
+
+    }
 }

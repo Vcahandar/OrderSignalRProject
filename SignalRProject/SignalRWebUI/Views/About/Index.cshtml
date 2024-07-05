@@ -24,10 +24,8 @@
 						<table class="table mt-3">
 							<thead>
 								<tr>
-									<th scope="col">#</th>
 									<th scope="col">Title</th>
 									<th scope="col">Description</th>
-									<th scope="col">Image</th>
 									<th scope="col">Delete</th>
 									<th scope="col">Update</th>
 								</tr>
@@ -37,10 +35,8 @@
 								@foreach (var item in Model)
 								{
 									<tr>
-										<td>@item.AboutId</td>
 										<td>@item.Title</td>
 										<td>@item.Description</td>
-										<td>@item.ImageUrl</td>
 										<td><a href="/About/DeleteAbout/@item.AboutId" class="btn btn-outline-danger">Delete</a></td>
 										<td><a href="/About/UpdateAbout/@item.AboutId" class="btn btn-outline-success">Update</a></td>
 									</tr>

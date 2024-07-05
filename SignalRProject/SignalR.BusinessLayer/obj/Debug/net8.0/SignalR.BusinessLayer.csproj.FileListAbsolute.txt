@@ -1,9 +1,3 @@
-C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.AssemblyInfoInputs.cache
-C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.AssemblyInfo.cs
-C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.sourcelink.json
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\bin\Debug\net8.0\SignalR.BusinessLayer.deps.json
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\bin\Debug\net8.0\SignalR.BusinessLayer.dll
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\bin\Debug\net8.0\SignalR.BusinessLayer.pdb
@@ -11,6 +5,12 @@ C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\bin\Deb
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\bin\Debug\net8.0\SignalR.EntityLayer.dll
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\bin\Debug\net8.0\SignalR.DataAccessLayer.pdb
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\bin\Debug\net8.0\SignalR.EntityLayer.pdb
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.AssemblyInfo.cs
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.sourcelink.json
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR..CCF1CBCC.Up2Date
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\SignalR.BusinessLayer.dll
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalR.BusinessLayer\obj\Debug\net8.0\refint\SignalR.BusinessLayer.dll

@@ -3,20 +3,22 @@
 @{
 	ViewData["Title"] = "Index";
 	Layout = "~/Views/AdminLayout/Index.cshtml";
+	int count = 0;
+
 }
 
 <div class="content">
 	<div class="container-fluid">
-		<h4 class="page-title">Discounts Of The Day</h4>
+		<h4 class="page-title">Discounted Transactions of the Day</h4>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
-						<div class="card-title">Discount List Of The Day</div>
+						<div class="card-title">Discount List of the Day</div>
 					</div>
 					<div class="card-body">
 						<div class="card-sub">
-							Discounted products of the day are listed below :
+							Discounted Products of the Day are Listed Below. <strong>Choose 2</strong> Discounted Products for Theme Integrity
 						</div>
 						<table class="table mt-3">
 							<thead>
@@ -24,22 +26,28 @@
 									<th scope="col">#</th>
 									<th scope="col">Product</th>
 									<th scope="col">Discount rate</th>
-									<th scope="col">Status</th> 
+									<th scope="col">Status</th>
 									<th scope="col">Delete</th>
 									<th scope="col">Update</th>
+									<th scope="col">Active</th>
+									<th scope="col">Passive</th>
 								</tr>
 							</thead>
 							<tbody>
 
 								@foreach (var item in Model)
 								{
+									count++;
 									<tr>
-										<td>@item.DiscountId</td>
+										<th>@count</th>
 										<td>@item.Title</td>
 										<td>@item.Amount</td>
-										<td><a href="/Discount/DeleteDiscount/@item.DiscountId" class="btn btn-outline-warning">Status</a></td>
+										<td>@item.Status</td>
 										<td><a href="/Discount/DeleteDiscount/@item.DiscountId" class="btn btn-outline-danger">Delete</a></td>
 										<td><a href="/Discount/UpdateDiscount/@item.DiscountId" class="btn btn-outline-success">Update</a></td>
+										<td><a href="/Discount/ChangeStatusToTrue/@item.DiscountId" class="btn btn-outline-warning">Active</a></td>
+										<td><a href="/Discount/ChangeStatusToFalse/@item.DiscountId" class="btn btn-outline-dark">Passive</a></td>
+
 									</tr>
 
 								}

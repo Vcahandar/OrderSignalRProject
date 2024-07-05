@@ -1,32 +1,48 @@
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using SignalRWebUI.Models;
+using SignalRWebUI.ViewModels.MessageVM;
 using System.Diagnostics;
+using System.Net.Http;
+using System.Text;
 
 namespace SignalRWebUI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IHttpClientFactory _httpClientFactory;
+        public HomeController(IHttpClientFactory httpClientFactory)
         {
-            _logger = logger;
+            _httpClientFactory = httpClientFactory;
         }
+
 
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+
+
+        [HttpGet]
+        public PartialViewResult SendMessage()
         {
+            return PartialView();
+        }
+        [HttpPost]
+        public async Task<IActionResult> SendMessage(CreateMessageVM createMessageVM)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createMessageVM);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("https://localhost:7172/api/Message", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+
     }
 }

@@ -1,0 +1,57 @@
+﻿@model List<ResultSliderVM>
+﻿
+
+
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+	int count = 0;
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Home Page Slider operations</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Slider us list</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+						
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">Title</th>
+									<th scope="col">Description</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									count++;
+									<tr>
+										<th>@count</th>
+										<td>@item.Description</td>
+										<td><a href="/Slider/DeleteSlider/@item.SliderId" class="btn btn-outline-danger">Delete</a></td>
+										<td><a href="/Slider/UpdateSlider/@item.SliderId" class="btn btn-outline-success">Update</a></td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<a href="/Slider/CreateSlider/" class="btn btn-outline-primary">Create Slider</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

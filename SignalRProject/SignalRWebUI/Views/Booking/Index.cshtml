@@ -45,6 +45,9 @@
                                                 <th scope="col">Reservation status</th>
                                                 <th scope="col">Delete</th>
                                                 <th scope="col">Update</th>
+                                                <th scope="col">Approve</th>
+                                                <th scope="col">Cancel</th>
+
                                             </tr>
                                         </thead>
                                         <tbody>`;
@@ -52,13 +55,15 @@
                     $.each(value, (index, item) => {
                         tablehtml += `
                                         <tr>
-                                            <td>${item.bookingId}</td>
+                                            <th>${index+1}</th>
                                             <td>${item.name}</td>
                                             <td>${item.phone}</td>
                                             <td>${item.personCount}</td>
-                                            <td>Reservation received</td>
+                                            <td>${item.description}</td>
                                                         <td><a href="/Booking/DeleteBooking/${item.bookingId}" class="btn btn-outline-danger">Delete</a></td>
                                                         <td><a href="/Booking/UpdateBooking/${item.bookingId}" class="btn btn-outline-success">Update</a></td>
+                                                        <td><a href="/Booking/BookingStatusApproved/${item.bookingId}" class="btn btn-outline-info">Approve</a></td>
+                                                        <td><a href="/Booking/BookingStatusCancelled/${item.bookingId}" class="btn btn-outline-dark">Cancel</a></td>
                                         </tr>`;
                     });
 

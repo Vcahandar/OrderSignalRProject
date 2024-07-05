@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SignalRWebUI.ViewModels.CategoryVM;
+using SignalRWebUI.ViewModels.ProdcutVM;
 using System.Text;
 
 namespace SignalRWebUI.Controllers
@@ -93,7 +94,9 @@ namespace SignalRWebUI.Controllers
         [HttpPost]
 		public async Task<IActionResult> UpdateCategory(UpdateCategoryVM updateCategoryVM)
         {
-            var client = _httpClientFactory.CreateClient();
+			updateCategoryVM.Status = true;
+
+			var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateCategoryVM);
             StringContent stringContent = new StringContent(jsonData,Encoding.UTF8, "application/json");
 			var responseMessage = await client.PutAsync("https://localhost:7172/api/Category/", stringContent);

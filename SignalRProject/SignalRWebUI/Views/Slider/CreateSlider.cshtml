@@ -1,0 +1,41 @@
+﻿@model CreateSliderVM
+
+@{
+	ViewData["Title"] = "CreateSlider";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Create Slider</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">New Slider</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="name">Title</label>
+								<input type="text" asp-for="Title" class="form-control" id="Title">
+							</div>
+
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Description">Description</label>
+								<textarea type="text" asp-for="Description" class="form-control" id="Description" rows="5"></textarea>
+							</div>
+
+						</div>
+						<div class="card-action">
+							<button class="btn btn-success">Submit</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

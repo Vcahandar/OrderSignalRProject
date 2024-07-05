@@ -33,8 +33,9 @@
 
 								@foreach (var item in Model)
 								{
+									count++;
 									<tr>
-										<td>@item.TestimonialId</td>
+										<th>@count</th>
 										<td>@item.Name</td>
 										<td>@item.Status</td>
 										<td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-outline-danger">Delete</a></td>
