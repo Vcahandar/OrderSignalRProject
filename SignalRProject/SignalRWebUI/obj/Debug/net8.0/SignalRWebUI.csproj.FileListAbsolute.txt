@@ -262,3 +262,4 @@ C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.pdb
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.genruntimeconfig.cache
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0\ref\SignalRWebUI.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\QRCoder.dll

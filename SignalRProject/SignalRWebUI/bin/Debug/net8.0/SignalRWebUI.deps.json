@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
           "SignalR.DataAccessLayer": "1.0.0",
-          "SignalR.EntityLayer": "1.0.0"
+          "SignalR.EntityLayer": "1.0.0",
+          "QRCoder": "1.0.0.0"
         },
         "runtime": {
           "SignalRWebUI.dll": {}
@@ -2079,6 +2080,14 @@
         "runtime": {
           "SignalR.EntityLayer.dll": {}
         }
+      },
+      "QRCoder/1.0.0.0": {
+        "runtime": {
+          "QRCoder.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -3383,6 +3392,11 @@
     },
     "SignalR.EntityLayer/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QRCoder/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
