@@ -263,3 +263,7 @@ C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.genruntimeconfig.cache
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\obj\Debug\net8.0\ref\SignalRWebUI.dll
 C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\QRCoder.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\MailKit.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\MimeKit.dll
+C:\Users\HP\Desktop\USignalRProject\SignalRProject\SignalRWebUI\bin\Debug\net8.0\NETCore.MailKit.dll
