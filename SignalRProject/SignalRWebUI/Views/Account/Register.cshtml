@@ -1,49 +1,73 @@
 ﻿@model RegisterVM
-
-
 @{
-	Layout = null;
+    Layout = null;
 }
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>SignalR Restaurant Registration</title>
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Font-->
-	<link rel="stylesheet" type="text/css" href="~/colorlib-regform-32/css/nunito-font.css">
-	<!-- Main Style Css -->
-	<link rel="stylesheet" href="~/colorlib-regform-32/css/style.css" />
-</head>
-<body class="form-v6">
-	<div class="page-content">
-		<div class="form-v6-content">
-			<div class="form-left">
-				<img src="~/colorlib-regform-32/images/hamburger.jpg" alt="form" style="width:484px; height:584px">
-			</div>
-			<form class="form-detail" method="post">
-				<h2>New User Registration</h2>
-				<div class="form-row">
-					<input type="text" id="full-name" asp-for="Name" class="input-text" placeholder="Your name" required>
-				</div>
-				<div class="form-row">
-					<input type="text" id="full-name" class="input-text" placeholder="Your surname" required asp-for="Surname">
-				</div>
-				<div class="form-row">
-					<input type="text" id="full-name" class="input-text" placeholder="Your User Name" required asp-for="Username">
-				</div>
-				<div class="form-row">
-					<input type="text" id="your-email" class="input-text" placeholder="Your Email Address" asp-for="Mail" required pattern="[^@@]+@@[^@@]+.[a-zA-Z]{2,6}">
-				</div>
-				<div class="form-row">
-					<input type="password" id="password" class="input-text" placeholder="Your password" asp-for="Password" required>
-				</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignalR Restaurant Registration</title>
 
-				<button class="btn btn-primary">Register</button>
-			</form>
-		</div>
-	</div>
-</body>
+    <!-- Font Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/colorlib-regform-7/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/colorlib-regform-7/css/style.css">
+</head>
+<body style="background-color:beige;">
+
+    <div class="main" style="background-color:beige;">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">New User Registration</h2>
+                        <form method="post" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" asp-for="Name" id="name" placeholder="Your Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" asp-for="Surname" id="name" placeholder="Your Surname" />
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" asp-for="Username" id="name" placeholder="Your User Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" asp-for="Mail" id="email" placeholder="Your Email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" asp-for="Password" id="pass" placeholder="Password" />
+                            </div>
+
+                            <div class="form-group form-button">
+                                <button id="signup" class="btn btn-primary"> Register </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img style="border-radius:22%" src="~/colorlib-regform-7/images/bur2.jpg" alt="sing up image"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <!-- JS -->
+    <script src="~/colorlib-regform-7/vendor/jquery/jquery.min.js"></script>
+    <script src="~/colorlib-regform-7/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>

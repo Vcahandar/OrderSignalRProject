@@ -16,6 +16,13 @@ namespace SignalR.DataAccessLayer.EntityFramework
         {
         }
 
+        public int BookingCount()
+        {
+            using var context = new SignalRContext();
+            return context.Bookings.Count();
+
+        }
+
         public void BookingStatusApproved(int id)
         {
             using var context = new SignalRContext();

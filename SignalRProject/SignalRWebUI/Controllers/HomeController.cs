@@ -1,9 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using SignalRWebUI.Models;
 using SignalRWebUI.ViewModels.MessageVM;
-using System.Diagnostics;
-using System.Net.Http;
 using System.Text;
 
 namespace SignalRWebUI.Controllers

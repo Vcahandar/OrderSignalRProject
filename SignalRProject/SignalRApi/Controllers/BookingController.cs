@@ -88,6 +88,13 @@ namespace SignalRApi.Controllers
         }
 
 
+        [HttpGet("BookingCount")]
+        public IActionResult BookingCount()
+        {
+            return Ok(_bookingService.TBookingCount());
+        }
+
+
         [HttpGet("BookingStatusCancelled/{id}")]
         public IActionResult BookingStatusCancelled(int id)
         {

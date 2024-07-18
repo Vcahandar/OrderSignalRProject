@@ -82,7 +82,9 @@ namespace SignalRApi.Hubs
 			var menuTabelCount = _menuTableService.TMenuTabelCount();
 			await Clients.All.SendAsync("ReceiveMenuTabelCount", menuTabelCount);
 
-		}
+
+
+        }
 
 		public async Task SendProgress()
 		{
@@ -94,6 +96,39 @@ namespace SignalRApi.Hubs
 
 			var menuTableCount = _menuTableService.TMenuTabelCount();
             await Clients.All.SendAsync("ReceiveMenuTabelCount", menuTableCount);
+
+            var productPriceAvg = _productService.TProductPriceAvg();
+            await Clients.All.SendAsync("ReceiveProductPriceAvg", productPriceAvg);
+
+            var productAvgPriceByHamburger = _productService.TProductAvgPriceByHamburger();
+            await Clients.All.SendAsync("ReceiveProductAvgPriceByHamburger", productAvgPriceByHamburger);
+
+            var productCountByCategoryNameDrink = _productService.TProductCountByCategoryNameDrink();
+            await Clients.All.SendAsync("ReceiveProductCountByCategoryNameDrink", productCountByCategoryNameDrink);
+
+			var totalOrderCount = _orderService.TTotalOrderCount();
+            await Clients.All.SendAsync("ReceiveTotalOrderCount", totalOrderCount);
+
+            var totalPriceByDrinkCategory = _productService.TTotalPriceByDrinkCategory();
+            await Clients.All.SendAsync("ReceiveTotalPriceByDrinkCategory", totalPriceByDrinkCategory);
+
+            var totalPriceBySaladCategory = _productService.TTotalPriceBySaladCategory();
+            await Clients.All.SendAsync("ReceiveTotalPriceBySaladCategory", totalPriceBySaladCategory);
+
+            var categoryCount = _categoryService.TCategoryCount();
+            await Clients.All.SendAsync("ReceiveCategoryCount", categoryCount);
+
+			var bookingCount = _bookingService.TBookingCount();
+			await Clients.All.SendAsync("ReceiveBookingCount", bookingCount);
+
+            var productCount = _productService.TProductCount();
+            await Clients.All.SendAsync("ReceiveProductCount", productCount);
+
+            var totalProductPrice = _productService.TTotalProductPrice();
+            await Clients.All.SendAsync("ReceiveTotalProductPrice", totalProductPrice);
+
+
+
         }
 
 		public async Task GetBookingList()

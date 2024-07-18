@@ -1,40 +1,73 @@
-﻿﻿
-@model LoginVM
+﻿@model LoginVM
 
 @{
     Layout = null;
 }
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>SignalR Restaurant Login Page</title>
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Font-->
-	<link rel="stylesheet" type="text/css" href="~/colorlib-regform-32/css/nunito-font.css">
-	<!-- Main Style Css -->
-	<link rel="stylesheet" href="~/colorlib-regform-32/css/style.css" />
-</head>
-<body class="form-v6">
-	<div class="page-content">
-		<div class="form-v6-content">
-			<div class="form-left">
-				<img src="~/colorlib-regform-32/images/hamburger.jpg" alt="form" style="width:484px; height:584px">
-			</div>
-			<form class="form-detail" method="post">
-				<h2>Login</h2>
-				<div class="form-row">
-					<input type="text" id="full-name" asp-for="Username" class="input-text" placeholder="Your User Name" required>
-				</div>
-				<div class="form-row">
-					<input type="password" id="password" class="input-text" placeholder="Your password" asp-for="Password" required>
-				</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SignalR Restaurant Sign In</title>
 
-				<button class="btn btn-dark">Login</button>
-			</form>
-		</div>
-	</div>
+    <!-- Font Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/colorlib-regform-7/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/colorlib-regform-7/css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign In Form -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img style="border-radius: 20%;" src="~/colorlib-regform-7/images/burger1.png" alt="sign up image"></figure>
+                        <a href="/Account/Register/" class="signup-image-link">Create an account</a>
+                    </div>
+
+                    <div class="signin-form">
+                        <h2 class="form-title">Sign In</h2>
+                        <form method="post" class="register-form" id="login-form">
+                            @* Error Message Section *@
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div class="alert alert-danger">
+                                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <p>@error.ErrorMessage</p>
+                                    }
+                                </div>
+                            }
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" asp-for="Username" id="your_name" placeholder="Your Username" />
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" asp-for="Password" id="your_pass" placeholder="Password" />
+                            </div>
+
+                            <div class="form-group form-button">
+                                <input type="submit" id="signin" class="form-submit" value="Log in" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="~/colorlib-regform-7/vendor/jquery/jquery.min.js"></script>
+    <script src="~/colorlib-regform-7/js/main.js"></script>
 </body>
 </html>
