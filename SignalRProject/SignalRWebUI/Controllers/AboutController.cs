@@ -70,7 +70,6 @@ namespace SignalRWebUI.Controllers
 		}
 
 
-
 		[HttpGet]
 		public async Task<IActionResult> UpdateAbout(int id)
 		{

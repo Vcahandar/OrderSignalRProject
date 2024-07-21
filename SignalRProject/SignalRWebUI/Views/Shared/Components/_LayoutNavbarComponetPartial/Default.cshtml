@@ -7,7 +7,7 @@
 
 
     <div class="main-header">
-        <script type="text/javascript">
+         <script type="text/javascript">
             $(document).ready(() => {
                 const connection = new signalR.HubConnectionBuilder()
                     .withUrl("https://localhost:7172/SignalRHub")
@@ -35,18 +35,25 @@
                     $("#notilist").empty();
                     notifications.forEach((notification) => {
                         $("#notilist").append(`
-                                          <a style="text-decoration:none;" href="#">
-                                            <div class="${notification.type}">
-                                                <i class="${notification.icon}"></i>
-                                            </div>
-                                            <div class="notif-content">
-                                                <span class="block">${notification.description}</span>
-                                                <span class="time">${notification.date}</span>
-                                            </div>
-                                        </a>
-                                    `);
+                            <a style="text-decoration:none;" href="#">
+                                <div class="${notification.type}">
+                                     <i class="${notification.icon}"></i>
+                                    </div>
+                            <div class="notif-content">
+                                   <span class="block">${notification.description}</span>
+                                      <span class="time">${notification.date}</span>
+                                   </div>
+                            </a>
+                        `);
                     });
                 });
+
+
+
+            connection.on("ReceiveMessageCountByFalse", (value) => {
+                $("#messageCount").text(value);
+            });
+ 
             });
         </script>
 
@@ -74,12 +81,10 @@
                     <li class="nav-item dropdown hidden-caret">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="la la-envelope"></i>
+                        <span class="notification" id="messageCount"></span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="">Inbox</a>
-                            <a class="dropdown-item" href="#">Reservations</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Communication</a>
+                            <a class="dropdown-item" href="/Inbox/Index/">Inbox</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown hidden-caret">

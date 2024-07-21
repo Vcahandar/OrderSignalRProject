@@ -873,6 +873,10 @@
       "PackagePath": "staticwebassets\\feane-1.0.0\\menu.html"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\icon\\dinning-table.png",
+      "PackagePath": "staticwebassets\\icon\\dinning-table.png"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\js\\chat.js",
       "PackagePath": "staticwebassets\\js\\chat.js"
     },

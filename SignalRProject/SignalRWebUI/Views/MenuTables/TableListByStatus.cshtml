@@ -38,11 +38,13 @@
 					$.each(value, (index, item) => {
 						if (item.status == true) {
 							color ="card card-stats card-success"
-							status = "Table is Full"
+							status = "Table Empty"
+
 						} 
 						else {
 							color ="card card-stats card-danger"
-							status = "Table Empty"
+							status = "Table is Full"
+
 
 
 						}
@@ -52,7 +54,8 @@
 										<div class="row">
 											<div class="col-5">
 												<div class="icon-big text-center">
-													<i class="la la-certificate"></i>
+					<img style="width:75px;" src="/icon/dinning-table.png" alt="icon" />
+
 												</div>
 											</div>
 											<div class="col-7 d-flex align-items-center">
@@ -77,6 +80,7 @@
 
 
 		<h4 class="page-title">Instant Table Status Page</h4>
+
 		@* 	@foreach (var item in Model)
 			{ *@
 

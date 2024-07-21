@@ -1,0 +1,59 @@
+﻿@model List<ResultInboxVM>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+	int count = 0;
+
+}
+
+
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Inbox operations</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Inbox Message list</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							You can perform operations related to the category :
+							<p>@ViewBag.ErrorMessage</p>
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Name</th>
+									<th scope="col">Subject</th>
+									<th scope="col">Read</th>
+									<th scope="col">Delete</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									count++;
+									<tr style="font-weight:@(item.Status ? "normal" : "bold");">
+										<th>@count</th>
+										<td>@item.NameSurname</td>
+										<td>@item.Subject</td>
+										<td><a href="/Inbox/DetailInbox/@item.MessageId" class="btn btn-outline-success">Read</a></td>
+										<td><a href="/Inbox/DeleteInbox/@item.MessageId" class="btn btn-outline-danger">Delete</a></td>
+									</tr>
+								}
+
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

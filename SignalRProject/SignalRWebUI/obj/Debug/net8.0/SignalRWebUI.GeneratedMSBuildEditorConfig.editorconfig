@@ -114,6 +114,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HP/Desktop/USignalRProject/SignalRProject/SignalRWebUI/Views/Inbox/DetailInbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ib3hcRGV0YWlsSW5ib3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/USignalRProject/SignalRProject/SignalRWebUI/Views/Inbox/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ib3hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/Desktop/USignalRProject/SignalRProject/SignalRWebUI/Views/Mail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

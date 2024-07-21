@@ -15,6 +15,7 @@ namespace SignalRApi.Hubs
 		readonly IMenuTableService _menuTableService;
 		readonly IBookingService _bookingService;
 		readonly INotificationService _notificationService;
+		readonly IMessageService _messageService;
 
         public SignalRHub(ICategoryService categoryService, 
 							IProductService productService,
@@ -22,7 +23,8 @@ namespace SignalRApi.Hubs
 							IMoneyCaseService moneyCaseService,
 							IMenuTableService menuTableService,
                             IBookingService bookingService,
-                            INotificationService notificationService)
+                            INotificationService notificationService,
+							IMessageService messageService)
         {
             _categoryService = categoryService;
 			_productService = productService;
@@ -31,6 +33,8 @@ namespace SignalRApi.Hubs
 			_menuTableService = menuTableService;
 			_bookingService = bookingService;
 			_notificationService = notificationService;
+			_messageService = messageService;
+
         }
 
 
@@ -88,11 +92,11 @@ namespace SignalRApi.Hubs
 
 		public async Task SendProgress()
 		{
-            var moneyCaseAmount = _moneyCaseService.TTotalMonetCaseAmount();
-            await Clients.All.SendAsync("ReceiveTotalMoneyCaseAmount", moneyCaseAmount.ToString("0.00") + "$");
+			var moneyCaseAmount = _moneyCaseService.TTotalMonetCaseAmount();
+			await Clients.All.SendAsync("ReceiveTotalMoneyCaseAmount", moneyCaseAmount.ToString("0.00") + "$");
 
-            var activeOrderCount = _orderService.TActiveOrderCount();
-            await Clients.All.SendAsync("ReceiveActiveOrderCount", activeOrderCount);
+			var activeOrderCount = _orderService.TActiveOrderCount();
+			await Clients.All.SendAsync("ReceiveActiveOrderCount", activeOrderCount);
 
 			var menuTableCount = _menuTableService.TMenuTabelCount();
             await Clients.All.SendAsync("ReceiveMenuTabelCount", menuTableCount);
@@ -126,9 +130,6 @@ namespace SignalRApi.Hubs
 
             var totalProductPrice = _productService.TTotalProductPrice();
             await Clients.All.SendAsync("ReceiveTotalProductPrice", totalProductPrice);
-
-
-
         }
 
 		public async Task GetBookingList()
@@ -145,8 +146,12 @@ namespace SignalRApi.Hubs
             var notifiactionListByFalse = _notificationService.TGetAllNotificationByFalse();
 			await Clients.All.SendAsync("ReceiveNotificationByFalse", notifiactionListByFalse);
 
+			var messageCountByFalse = _messageService.TMessageCountByStatusFalse();
+			await Clients.All.SendAsync("ReceiveMessageCountByFalse", messageCountByFalse);
 
-        }
+			var messageListByFalse = _messageService.TGetAllMessageByFalse();
+			await Clients.All.SendAsync("ReceiveMessageByFalse", messageListByFalse);
+		}
 
 		public async Task GetMenuTableStatus()
 		{

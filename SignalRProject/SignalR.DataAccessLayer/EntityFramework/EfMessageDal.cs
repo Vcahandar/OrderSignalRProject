@@ -15,5 +15,33 @@ namespace SignalR.DataAccessLayer.EntityFramework
         public EfMessageDal(SignalRContext context) : base(context)
         {
         }
-    }
+
+		public List<Message> GetAllMessageByFalse()
+		{
+			using var context = new SignalRContext();
+			return context.Messages.Where(x => x.Status == false).ToList();
+		}
+
+		public void MessageChangeToFalse(int id)
+		{
+			using var context = new SignalRContext();
+			var value = context.Messages.Find(id);
+			value.Status = false;
+			context.SaveChanges();
+		}
+
+		public void MessageChangeToTrue(int id)
+		{
+			using var context = new SignalRContext();
+			var value = context.Messages.Find(id);
+			value.Status = true;
+			context.SaveChanges();
+		}
+
+		public int MessageCountByStatusFalse()
+		{
+			using var context = new SignalRContext();
+			return context.Messages.Where(x => x.Status == false).Count();
+		}
+	}
 }

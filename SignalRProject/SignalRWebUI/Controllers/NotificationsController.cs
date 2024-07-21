@@ -111,7 +111,7 @@ namespace SignalRWebUI.Controllers
 		[HttpGet]
 		public async Task<IActionResult> NotificationStatusChangeTrue(int id)
 		{
-			var client = _httpClientFactory.CreateClient();
+			 var client = _httpClientFactory.CreateClient();
 			 await client.GetAsync($"https://localhost:7172/api/Notification/NotificationChangeToTrue/{id}");
 
             return RedirectToAction("Index");

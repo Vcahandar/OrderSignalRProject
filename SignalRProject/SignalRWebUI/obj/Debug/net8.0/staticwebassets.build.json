@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4T40+8iVvZSNBX1ddNgXKNq8AWEWMkkrr7reIfWUaK8=",
+  "Hash": "Xsd6m346ionSZKwrRA09VZ3QW+SelpnP0uRKYgUthYU=",
   "Source": "SignalRWebUI",
   "BasePath": "_content/SignalRWebUI",
   "Mode": "Default",
@@ -2713,6 +2713,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\feane-1.0.0\\menu.html"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\icon\\dinning-table.png",
+      "SourceId": "SignalRWebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\",
+      "BasePath": "_content/SignalRWebUI",
+      "RelativePath": "icon/dinning-table.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\dinning-table.png"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\USignalRProject\\SignalRProject\\SignalRWebUI\\wwwroot\\js\\chat.js",

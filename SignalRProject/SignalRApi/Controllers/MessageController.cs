@@ -35,9 +35,6 @@ namespace SignalRApi.Controllers
                 MessageContent = createMessageDto.MessageContent,
                 MessageSendDate = DateTime.Now,
                 Status =false,
-               
-
-
             };
 
             _messageService.TAdd(Message);
@@ -76,5 +73,34 @@ namespace SignalRApi.Controllers
             var value = _messageService.TGetById(id);
             return Ok(value);
         }
-    }
+
+
+		[HttpGet("MessageCountByStatusFalse")]
+		public IActionResult MessageCountByStatusFalse()
+		{
+			return Ok(_messageService.TMessageCountByStatusFalse());
+		}
+
+
+		[HttpGet("GetAllMessageByFalse")]
+		public IActionResult GetAllMessageByFalse()
+		{
+			return Ok(_messageService.TGetAllMessageByFalse());
+		}
+
+		[HttpGet("MessageChangeToFalse/{id}")]
+		public IActionResult MessageChangeToFalse(int id)
+		{
+			_messageService.TMessageChangeToFalse(id);
+			return Ok("Update False Done");
+		}
+
+
+		[HttpGet("MessageChangeToTrue/{id}")]
+		public IActionResult MessageChangeToTrue(int id)
+		{
+			_messageService.TMessageChangeToTrue(id);
+			return Ok("Update True Done");
+		}
+	}
 }

@@ -28,7 +28,12 @@ namespace SignalR.BusinessLayer.Concrete
             _messageDal.Delete(entity);
         }
 
-        public Message TGetById(int id)
+		public List<Message> TGetAllMessageByFalse()
+		{
+			return _messageDal.GetAllMessageByFalse();
+		}
+
+		public Message TGetById(int id)
         {
             return _messageDal.GetById(id);
         }
@@ -38,7 +43,22 @@ namespace SignalR.BusinessLayer.Concrete
             return _messageDal.GetListAll();
         }
 
-        public void TUpdate(Message entity)
+		public void TMessageChangeToFalse(int id)
+		{
+			_messageDal.MessageChangeToFalse(id);
+		}
+
+		public void TMessageChangeToTrue(int id)
+		{
+			_messageDal.MessageChangeToTrue(id);
+		}
+
+		public int TMessageCountByStatusFalse()
+		{
+			return _messageDal.MessageCountByStatusFalse();
+		}
+
+		public void TUpdate(Message entity)
         {
             _messageDal.Update(entity);
         }
